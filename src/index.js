@@ -11,7 +11,7 @@ class API{
   }
   updateUrl(newURL){
     this.url=newURL;
-    this.#secure= newURL.startWith('https');
+    this.#secure= newURL.startsWith('https');
   }
 }
 
